@@ -42,6 +42,7 @@ function AllSkillsButton() {
                         <span className="bold-text">- Frontend Technologies -</span>
                     </div>
                     <DevIconTag type='ReactOriginal' text={'React'} className="small-margin" />
+                    <DevIconTag type='ReactOriginal' text={'React Native'} className="small-margin" />
                     <DevIconTag type='ReduxOriginal' text={'Redux'} className="small-margin" />
                     <DevIconTag type='Html5Original' text={'HTML'} className="small-margin" />
                     <DevIconTag type='Css3Original' text={'CSS'} className="small-margin" />
