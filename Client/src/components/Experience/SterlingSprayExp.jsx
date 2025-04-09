@@ -7,7 +7,7 @@ import SterlingSprayLogo from '../../assets/STERLING-SPRAY.png'
 function SterlingSprayExp() {
     return (
     <ExperienceCard
-        profesion="Full Syack Developer"
+        profesion="Full Stack Developer"
         companyIcon={SterlingSprayLogo}
         companyName="Sterling Spray LLC."
         location="Houston, TX (Contract Work)"
