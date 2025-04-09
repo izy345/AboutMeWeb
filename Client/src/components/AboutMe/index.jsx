@@ -4,6 +4,7 @@ import devImg from '../../assets/Developer.jpg'
 import Icon from "../../ui/Icon";
 import GlowOrb from "../../ui/GlowOrb/GlowOrb";
 import { useSelector } from "react-redux";
+import AllSkillsButton from "../../ui/AllSkillsButton";
 
 function AboutMe() {
 
@@ -66,7 +67,14 @@ function AboutMe() {
                             <p/>
                         </div>
                     }
-                    <GlowOrb color={'green'} size={12}/>  <span>Israel is available for hire!</span>
+                    <div style={{display:'flex', justifyContent:'space-between', alignItems: 'center'}}>
+                        <div>
+                            <GlowOrb color={'green'} size={12}/>  <span>Israel is available for hire!</span>
+                        </div>
+                        <div>
+                            <AllSkillsButton />
+                        </div>
+                    </div>
                 </section>
             </Card>
 

@@ -34,6 +34,7 @@ function SpecialThanks() {
                 </BulletPoint>
                 <div style={{ display: 'flex', justifyContent: 'end', marginRight: '12px'}}>
                     <button
+                        className="commonButton"
                         onClick={() => {navigate('/')}}
                     >
                         Go back

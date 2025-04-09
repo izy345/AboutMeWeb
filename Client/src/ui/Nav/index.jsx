@@ -42,14 +42,7 @@ function TopNav() {
                 }}
             />
             <button
-                style={{
-                    backgroundColor: "#54807e",
-                    padding: "8px",
-                    borderRadius: "4px",
-                    border: "none",
-                    cursor: "pointer",
-                    fontWeight: "bold",
-                }}
+                className="commonButton"
                 onClick={() => {
                     closeMenu();
                     navigate("/citations");
@@ -121,14 +114,7 @@ function TopNav() {
                             }}
                         />
                         <button
-                            style={{
-                                backgroundColor: "#54807e",
-                                padding: "4px 8px",
-                                borderRadius: "4px",
-                                border: "none",
-                                cursor: "pointer",
-                                fontWeight: "bold",
-                            }}
+                            className="commonButton"
                             onClick={() => {
                                 navigate("/citations");
                             }}
