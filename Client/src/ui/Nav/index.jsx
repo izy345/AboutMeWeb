@@ -24,7 +24,7 @@ function TopNav() {
             }}
         >
             <GithubButton
-                url="https://github.com/izy345"
+                url="https://github.com/izy345/AboutMeWeb"
                 style={{
                     backgroundColor: "#94d1ce",
                     padding: "8px",
@@ -105,7 +105,7 @@ function TopNav() {
                         }}
                     >
                         <GithubButton
-                            url="https://github.com/izy345"
+                            url="https://github.com/izy345/AboutMeWeb"
                             style={{
                                 backgroundColor: "#94d1ce",
                                 padding: "4px",
