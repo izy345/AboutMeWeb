@@ -1,0 +1,17 @@
+.cardContainer{
+    background-color: rgba(250, 250, 250, 0.863); /* 240 248 255 .7  pr 207 227 244 .7*/
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+    padding: 6px;
+    margin: 8px;
+}
+
+.clickable {
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.clickable:hover {
+    transform: scale(1.02);
+}

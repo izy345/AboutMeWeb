@@ -1,0 +1,62 @@
+.ForecastCardRoot{
+    background-color: rgba(110, 148, 154, 0.75);
+    width: 100px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.20);
+    transition: transform 0.2s ease;
+}
+.ForecastCardRoot:hover {
+    transform: scale(1.05);
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.highText {
+    font-weight: 800;
+    font-size: 18px;
+    color: rgb(227, 227, 227);
+}
+
+.lowText {
+    font-weight: 800;
+    font-size: 15.5px;
+    color: rgb(202, 228, 236);
+}
+
+.dateText {
+    font-weight: 800;
+    color: rgb(222, 243, 243);
+}
+
+.currentForecastContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+    background-color: rgba(228, 239, 241, 0.75); /* 102, 156, 164 */
+    width: fit-content;
+    padding: 8px;
+    border-radius: 8px;
+    color:black;
+    font-weight: 800;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+.currentForecastContainer:hover {
+    transform: scale(1.03);
+}
+
+.forecastBackground{
+    background-color: rgb(223, 223, 255);
+    border-radius: 8px;
+    padding: 8px;
+}
+
