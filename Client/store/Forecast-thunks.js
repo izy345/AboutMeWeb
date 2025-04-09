@@ -11,7 +11,6 @@ forecastActions.getForecast = () => {
             console.error('There was an error fetching the forecast data:', response?.data);
             return
         }
-        console.log('Forecast data:', response.data.properties.periods);
         dispatch(forecastSliceActions.setForecastData(response.data.properties.periods));
     };
 }
