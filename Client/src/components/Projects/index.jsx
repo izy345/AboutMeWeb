@@ -1,6 +1,7 @@
 import Card from "../../ui/Card/Card"
 import BankChurnPredict from "./BankChurnPredict"
 import ExpenseApp from "./ExpenseApp"
+import FrogeTVTwitchAPI from "./FrogeTV-TwitchAPI"
 import NextWordPredictor from "./NextWordPredictor"
 
 
@@ -17,6 +18,7 @@ function Projects() {
             </section>
 
             <div style={{ display: 'flex', justifyContent: "space-evenly", flexWrap: "wrap"}}>
+                <FrogeTVTwitchAPI />
                 <ExpenseApp />
                 <BankChurnPredict />
                 <NextWordPredictor />
