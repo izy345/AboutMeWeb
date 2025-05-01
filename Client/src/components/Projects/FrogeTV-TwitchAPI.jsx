@@ -9,7 +9,7 @@ function FrogeTVTwitchAPI() {
 
     return (
         <ProjectCard
-            prjoectName='FrogeTV: Twitch API (and other APIs) Mobile App'
+            prjoectName='FrogeTV: Twitch & 3rd Party APIs App'
             projectTimespan='Apr 2025 - Present'
             projectImg={FrogeTV}
             objectFit="cover"
