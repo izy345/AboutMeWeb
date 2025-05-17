@@ -51,27 +51,15 @@ function FrogeTVTwitchAPI() {
             </span></BulletPoint>
 
             <BulletPoint><span>
-                - Interested? Check below for the demo video! Each video showcases the app in action with different mobile orientations!
+                - Interested? Check below for the full demo! The first hald shows a phone UI, while the second half shows a tablet UI.
             </span></BulletPoint>
 
             <div style={{ display: "flex", justifyContent: "center", margin: "16px 0" }}>
                 <iframe 
                     width="560" 
                     height="315" 
-                    src="https://www.youtube.com/embed/RkFdqDwHSuY" 
+                    src="https://www.youtube.com/embed/MgvPfFEubTA" 
                     title="YouTube video player" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowFullScreen
-                ></iframe>
-            </div>
-
-            <div style={{ display: "flex", justifyContent: "center", margin: "16px 0" }}>
-                <iframe 
-                    width="560" 
-                    height="315" 
-                    src="https://www.youtube.com/embed/o5Dj-hfZkPc" 
-                    title="YouTube video player" 
-
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowFullScreen
                 ></iframe>
