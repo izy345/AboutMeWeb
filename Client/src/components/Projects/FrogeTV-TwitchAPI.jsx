@@ -51,7 +51,7 @@ function FrogeTVTwitchAPI() {
             </span></BulletPoint>
 
             <BulletPoint><span>
-                - Interested? Check below for the full demo! The first hald shows a phone UI, while the second half shows a tablet UI.
+                - Interested? Check below for the full demo! The first half shows a phone UI, while the second half shows a tablet UI.
             </span></BulletPoint>
 
             <div style={{ display: "flex", justifyContent: "center", margin: "16px 0" }}>
