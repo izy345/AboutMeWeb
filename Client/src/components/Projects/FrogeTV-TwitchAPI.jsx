@@ -14,7 +14,7 @@ function FrogeTVTwitchAPI() {
             projectImg={FrogeTV}
             objectFit="cover"
             objectPosition="top"
-            //repoLink="https://github.com/izy345/ExpenseTrackerApp"
+            repoLink="https://github.com/izy345/Froge-TV"
         >
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <img src={FrogeTV} className={styles.mobileImageStyling} />
