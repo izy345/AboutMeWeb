@@ -1,6 +1,7 @@
 import Card from "../../ui/Card/Card"
 import EnsyteExp from "./EnsyteExp"
 import HoustonPaintingExp from "./HoustonPainting"
+import IntuitiveMachinesExp from "./IntuitiveMachines";
 import SterlingSprayExp from "./SterlingSprayExp"
 import { useSelector } from "react-redux";
 
@@ -21,12 +22,14 @@ function Experience() {
             </section>
         
 
-            <div style={{display:`${isMobile ? '' :'flex'}`}}>    
-                <EnsyteExp />
+            <div style={{display:`${isMobile ? '' :'flex'}`}}>  
+                <IntuitiveMachinesExp />  
                 <SterlingSprayExp />
             </div>
             <div style={{display:`${isMobile ? '' :'flex'}`, alignContent:'center', justifyContent:'center'}}>
+                <EnsyteExp />
                 <HoustonPaintingExp />
+                
             </div>
         </Card>
 

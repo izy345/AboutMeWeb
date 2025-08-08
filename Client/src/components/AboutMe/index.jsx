@@ -69,7 +69,7 @@ function AboutMe() {
                     }
                     <div style={{display:'flex', justifyContent:'space-between', alignItems: 'center'}}>
                         <div>
-                            <GlowOrb color={'green'} size={12}/>  <span>Israel is available for hire!</span>
+                            <GlowOrb color={'#a8a800'} size={12}/>  <span>Available for small 'side hustle' freelance projects</span>
                         </div>
                         <div>
                             <AllSkillsButton />
